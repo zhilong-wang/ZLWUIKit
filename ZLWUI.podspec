@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ZLWUI"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ZLWUI."
+  spec.summary      = " this is tools of UI which can be used to quick programing"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,21 +25,15 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  this is tools of UI which can be used to quick programing.  经常使用的工具
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/ZLWUI"
+  spec.homepage     = "https://github.com/zhilong-wang/ZLWUIKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See https://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,7 +58,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -90,9 +84,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
-  spec.exclude_files = "Classes/Exclude"
-
+  spec.source_files  = "ZLWUI/Classes/**/*.{h,m,swift}"
+  # spec.exclude_files = "ZLWUI/Classes/Exclude"
+  spec.swift_version = '4.0'
   # spec.public_header_files = "Classes/**/*.h"
 
 
@@ -132,6 +126,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency "SnapKit"
+
 
 end
