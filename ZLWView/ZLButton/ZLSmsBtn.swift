@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ZLWUIKit
+import ZLWUI
 
 public protocol ZLSmsBtnDelegate:NSObjectProtocol{
     func zl_titleForTime(_ time:Int) -> String

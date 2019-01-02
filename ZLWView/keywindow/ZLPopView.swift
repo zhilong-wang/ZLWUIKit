@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ZLWUIKit
+import ZLWUI
 
 
 @objc public class  ZLPopView: ZLView {

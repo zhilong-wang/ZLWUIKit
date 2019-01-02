@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ZLWUIKit
+import ZLWUI
 
 /// 一行排列的视图 以及计算大小
 @objc open class  ZLContentsV: ZLView {

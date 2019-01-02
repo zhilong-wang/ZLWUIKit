@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import ZLWUIKit
+import ZLWUI
 import SnapKit
 public class ZLAppVersionCheckView:ZLView{
     public var icon:UIImageView = {

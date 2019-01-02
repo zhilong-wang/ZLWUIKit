@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ZLWUIKit
+import ZLWUI
 import SnapKit
 
 @objc open class ZLContentScrollV:UIScrollView{
