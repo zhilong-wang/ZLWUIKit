@@ -1,6 +1,6 @@
 
 import Foundation
-import ZLWUIKit
+import ZLWUI
 
 @objc public class ZLDrawSelectView :UIView{
     var view:UIView?
