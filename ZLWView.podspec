@@ -28,7 +28,7 @@ TODO: 有多语言的扩展以及，常用的安全适配扩展
   s.author           = { 'SJYY' => 'zhilong_w@aliyun.com' }
   s.source           = { :git => 'https://github.com/zhilong-wang/ZLWUIKit.git', :tag => s.version.to_s }
 
-  s..swift_version = '4.0'
+  s.swift_version = '4.0'
   s.source_files = 'ZLWView/**/*'
   s.dependency 'SnapKit'
   s.dependency 'ZLWUI'
