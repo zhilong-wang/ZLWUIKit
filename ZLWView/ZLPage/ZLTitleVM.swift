@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ZLWUI
+import ZLWUIKit
 import SnapKit
 
 public protocol ZLTitleControlDelegate:NSObjectProtocol {

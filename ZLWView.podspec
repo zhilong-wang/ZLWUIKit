@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZLWView'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '常用的扩展和工具'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-s..swift_version = '4.0'
+
   s.description      = <<-DESC
 TODO: 有多语言的扩展以及，常用的安全适配扩展
                        DESC
@@ -28,8 +28,7 @@ TODO: 有多语言的扩展以及，常用的安全适配扩展
   s.author           = { 'SJYY' => 'zhilong_w@aliyun.com' }
   s.source           = { :git => 'https://github.com/zhilong-wang/ZLWUIKit.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
-
+  s..swift_version = '4.0'
   s.source_files = 'ZLWView/**/*'
   s.dependency 'SnapKit'
   s.dependency 'ZLWUI'
